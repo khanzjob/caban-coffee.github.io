@@ -1,5 +1,4 @@
 # CABAN-COFFEE
-<img src="img/TaraCafee.png" alt="">
 
 ### Demo : https://khanzjob.github.io/index.html
 
