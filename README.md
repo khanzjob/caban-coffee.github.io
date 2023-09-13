@@ -1,7 +1,7 @@
-# TaraCafe
+# CABAN-COFFEE
 <img src="img/TaraCafee.png" alt="">
 
-### Demo : https://yoghantara08.github.io/TaraCafe/
+### Demo : https://khanzjob.github.io/index.html
 
 ### 🛠️ | Languages and Tools
 - HTML
