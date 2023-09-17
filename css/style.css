@@ -212,6 +212,7 @@ nav {
 .menu-list span {
   font-size: 1.5rem;
   font-weight: 600;
+  font-family: "Viga", sans-serif;
 }
 .menu-list p {
   transition: all 0.3s ease;
