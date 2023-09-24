@@ -243,7 +243,7 @@ nav {
 .right-img-menu {
   bottom: -70px;
   right: 0;
-  box-shadow: -5px 10px 20px 3px rgba(26, 23, 23, 0.4);
+  box-shadow: -5px 10pxconn 20px 3px rgba(26, 23, 23, 0.4);
   border-radius: 10px;
   overflow: hidden;
 }
@@ -377,12 +377,29 @@ nav {
   padding: 20px; /* Add some padding to the elements */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
 }
+.connect{
+  text-align: center;
+  margin-left: 0;
+
+  /* align-items: center;
+  justify-content: center; */
+
+}
+.connect li{
+  margin-left: 0;
+  font-family: "Viga", sans-serif;
+}
+.connect h2{
+  font-family: "Viga", sans-serif;
+}
 .connect li i {
+  margin-left: 0;
   width: 24px;
   height: 24px;
   font-size: 30px;
   margin-right: 10px;
   margin-top: 10px;
+
 }
 
 .form-container {
@@ -394,6 +411,7 @@ nav {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 20px;
+  font-family: "viga", sans-serif;
 }
 .form-container1{
   width: 800px;
@@ -410,6 +428,7 @@ nav {
 #footer {
   margin-top: 50px;
   font-family: "Viga", sans-serif;
+  
 }
 .footer {
   padding-top: 30px;
@@ -421,6 +440,12 @@ nav {
 }
 #footer.footer-contact {
   margin-top: -25px;
+  position: sticky;
+  bottom: 0;
+  opacity: 0.7;
+  top: 750px;
+  z-index: 1000;
+ 
 }
 .footer::after {
   content: "";

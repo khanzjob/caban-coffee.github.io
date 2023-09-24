@@ -38,9 +38,10 @@ function showFooter() {
                   <ul class="list-unstyled text-uppercase">
                     <li>open from 07:00 AM - 11:00 PM</li>
                     <li class="mb-3">Ntinda - Kampala</li>
+                    <li class="mb-3">cabancoffeedealers@gmail.com</li>
                   </ul>
                   <span class="me-3"><i class="fa-brands fa-instagram"></i> caban</span>
-                  <span><i class="fa-brands fa-whatsapp"></i> +256777777777</span>
+                  <span><i class="fa-brands fa-whatsapp"></i> +25677318774</span>
                 </div>
               </div>
             </div>
@@ -65,3 +66,4 @@ $(document).ready(function () {
     $("html, body").animate({ scrollTop: 0 }, 800);
   });
 });
+
