@@ -1,7 +1,7 @@
 // Default in HTML
 const carouselInner = document.querySelector(".carousel-menu");
 const rightMenuImage = document.querySelector(".right-img-menu");
-carouselInner.innerHTML = carouselMenuImage("cup_coffee.jpg", "coffe -freshtree.avif", "process.jpg");
+carouselInner.innerHTML = carouselMenuImage("cup_coffee.jpg", "cf9.jpg", "process.jpg", "cf10.jpg","cf1.jpg");
 rightMenuImage.innerHTML = rightImage("garden.jpg");
 
 // More Menu (Coffee)
@@ -68,18 +68,18 @@ function animateOnClick() {
 
 function imgCoffee(e) {//raw coffee
   e.preventDefault();
-  carouselInner.innerHTML = carouselMenuImage("coffe -freshtree.avif", "coffee-grains.jpg", "green-grains.jpg");
+  carouselInner.innerHTML = carouselMenuImage("cf9.jpg", "cf3.jpg", "cf6.jpg");
   rightMenuImage.innerHTML = rightImage("garden.jpg");
 }
 function imgDesserts(e) {//roasted coffee
   e.preventDefault();
-  carouselInner.innerHTML = carouselMenuImage("coffe -freshtree.avif", "garden.jpg", "garden.jpg");
+  carouselInner.innerHTML = carouselMenuImage("cf2.jpg", "garden.jpg", "cf4.jpg");
   rightMenuImage.innerHTML = rightImage("garden.jpg");
 }
 function imgBreakfast(e) {//processed
   e.preventDefault();
-  carouselInner.innerHTML = carouselMenuImage("process.jpg", "industry.jpg", "coffe -freshtree.avif");
-  rightMenuImage.innerHTML = rightImage("garden.jpg");
+  carouselInner.innerHTML = carouselMenuImage("process.jpg", "industry.jpg", "cf1112");
+  rightMenuImage.innerHTML = rightImage("cf13.jpg");
 }
 
 const menuText1 = document.querySelector(".menu-text h5");
